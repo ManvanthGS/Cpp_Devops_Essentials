@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "xaver.clang-format",
+
+
+  "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/c++.exe",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "C:/msys64/mingw64/include",
+    "C:/msys64/mingw64/include/c++/15.2.0",
+    "C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32",
+    "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+  ],
+
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_fallbackStyle": "None",
+
+  "C_Cpp.default.compileCommands": "${command:cmake.buildDirectory}/compile_commands.json",
+
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.path": "clang-tidy",
+  "C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+  "C_Cpp.codeAnalysis.clangTidy.config": "file"
+}
+

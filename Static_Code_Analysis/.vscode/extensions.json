@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        /* --- C++ & Build Tooling --- */
+        "ms-vscode.cpptools",              // Core C/C++ extension (IntelliSense, debugging)
+        "ms-vscode.cmake-tools",           // CMake integration (presets, configure, build)
+        "twxs.cmake",                      // Syntax highlighting for CMake files
+
+        /* --- Formatters / Linters --- */
+        "xaver.clang-format",              // clang-format formatter
+        "notskm.clang-tidy",              // clang-tidy linter integration
+
+        /* --- Useful Developer Extensions --- */
+        "streetsidesoftware.code-spell-checker", // catches typos in code/docs
+        "editorconfig.editorconfig",       // supports .editorconfig file
+        "eamodio.gitlens",                 // enhanced Git UI (history, blame)
+        "ms-vscode.cpptools-extension-pack" // includes CPU profiler + themes
+    ],
+
+    "unwantedRecommendations": [
+        "ms-vscode.cpptools-themes"        // Optional: remove theme pack suggestions
+    ]
+}

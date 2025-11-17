@@ -1,0 +1,39 @@
+Checks: >
+  readability-identifier-naming,
+  readability-braces-around-statements,
+  readability-magic-numbers,
+  modernize-*,
+  performance-*,
+  cppcoreguidelines-*,
+  bugprone-*,
+  clang-analyzer-*,
+  -cppcoreguidelines-avoid-magic-numbers
+
+WarningsAsErrors: ''
+
+CheckOptions:
+  # Classes, Structs, Enums
+  - key: readability-identifier-naming.ClassCase
+    value: CamelCase
+  - key: readability-identifier-naming.StructCase
+    value: CamelCase
+  - key: readability-identifier-naming.EnumCase
+    value: CamelCase
+
+  # Functions
+  - key: readability-identifier-naming.FunctionCase
+    value: Camel_Snake_Case
+
+  # Variables
+  - key: readability-identifier-naming.VariableCase
+    value: lower_case
+  - key: readability-identifier-naming.MemberCase
+    value: lower_case
+
+  # Constants
+  - key: readability-identifier-naming.ConstantCase
+    value: UPPER_CASE
+
+  # Suffix rules
+  - key: readability-identifier-naming.VariableSuffix
+    value: '_i32|_u8|_i64|_f32|_f64|_b'
